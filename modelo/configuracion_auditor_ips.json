@@ -1,0 +1,26 @@
+{
+    "columnas_modelo": [
+        "tiene_prefactura",
+        "tiene_detalle_clinico",
+        "codigo_coincide",
+        "cantidad_coincide",
+        "diferencia_cantidad",
+        "tiene_soporte_clinico",
+        "dias_hasta_facturacion",
+        "edad",
+        "cantidad_realizada",
+        "cantidad_facturada",
+        "valor_unitario",
+        "valor_total"
+    ],
+    "umbral_revision_preventiva": 0.35,
+    "umbral_generar_alerta": 0.4,
+    "clase_0": "CONSISTENTE",
+    "clase_1": "INCONSISTENTE",
+    "version": "1.0",
+    "tipo_modelo": "Red neuronal para datos tabulares",
+    "limitaciones": [
+        "La relación diagnóstico-servicio no puede determinarse únicamente con CIE-10 y CUPS.",
+        "La validación completa del soporte clínico requiere documentos adicionales."
+    ]
+}
